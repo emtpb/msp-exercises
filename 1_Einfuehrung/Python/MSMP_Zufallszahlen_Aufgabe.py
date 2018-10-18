@@ -9,8 +9,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 N = 200
-# 1. Normalverteilt. mu=2, sigma=3
+# 1. Gaussian distributed. mu=2, sigma=3
+x_nv
 
-
-# 2. Gelichverteilt.
-
+# 2. Equally distributed.
+width = sigma*np.sqrt(12)
+x_gv =
