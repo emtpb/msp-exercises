@@ -8,12 +8,12 @@ def wvd(signal_in, resolution, win_size, sampl_freq):
     Args:
         signal_in (array_like): signal from that the cwt should be calculated
         resolution (float): resolution, number of samples between windows (for full resolution:  1)
-        winSize (flaot): window size, becomes length of frequency axis (a good default: len(signalIn)/2)
-        sampl_frequ (float): samples per second of signal
+        win_size (float): window size, becomes length of frequency axis (a good default: len(signalIn)/2)
+        sampl_freq (float): samples per second of signal
     Returns:
-        cwt(array_like): WVD of signal_in
-        ff(array_like): frequency array
-        tt(array_like): time array
+        wv (array_like): WVD of signal_in
+        ff (array_like): frequency array
+        tt (array_like): time array
     """
     number_pts = math.floor(math.floor(len(signal_in)/resolution)/2)*2
 
